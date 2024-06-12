@@ -3,3 +3,4 @@ How to install sonarqube using docker
 how to install trivy
 wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb
 sudo dpkg -i trivy_0.18.3_Linux-64bit.deb
+trivy example command =  trivy image imagename (gives you all the vulnerability in the image)
