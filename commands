@@ -1,2 +1,5 @@
 How to install sonarqube using docker 
  sudo docker run -itd --name=sonarqube-server -p 9000:9000 sonarqube:lts-community
+how to install trivy
+wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb
+sudo dpkg -i trivy_0.18.3_Linux-64bit.deb
