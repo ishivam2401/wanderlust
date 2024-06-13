@@ -5,3 +5,4 @@ wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.
 sudo dpkg -i trivy_0.18.3_Linux-64bit.deb
 trivy example command =  trivy image imagename (gives you all the vulnerability in the image)
 in sonarqube for webhook put jenkins url like this (http://35.174.205.235:8080/sonarqube-webhook/)
+sonarqube scanner and owasp dependency check will be setup under tools in jenkins
